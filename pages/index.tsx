@@ -34,7 +34,6 @@ const Main = () => {
           <div className={classNames(styles.footer_container)}>
             <div className={classNames(styles.bottom_gradient)} />
             <div className={classNames(styles.footer_content)}>
-              <h5 className={classNames(styles.contact_header)}>CONTACT US</h5>
               <p>
                 St James Garlickhythe
                 <br />
