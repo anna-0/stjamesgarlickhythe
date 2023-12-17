@@ -1,0 +1,103 @@
+.main {
+  background-color: #123133;
+  font-family: "Nunito Sans", sans-serif;
+  color: #c2b7af;
+  height: 100vh;
+}
+
+.top_container {
+  position: absolute;
+  width: 100%;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #eae9df;
+}
+
+.top_gradient {
+  height: 150px;
+  background: linear-gradient(
+    180deg,
+    rgba(234, 233, 223, 1) 0%,
+    rgba(0, 0, 0, 0) 100%
+  );
+}
+
+.logo {
+  margin: 5px 0 0 0;
+}
+
+.title_container {
+  width: 100vw;
+  height: 85%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: black;
+  line-height: 1;
+  text-shadow: 0 0 25px #fff, 0 0 25px #fff;
+}
+
+.background_image {
+  background-image: url(/images/st-james-garlickhythe-altar-frontpage.jpg);
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main_title {
+  letter-spacing: 3px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 35px;
+  color: black;
+  @media (min-width: 700px) {
+    font-size: 50px;
+    letter-spacing: 5px;
+  }
+}
+
+.subheading {
+  font-size: 18px;
+  letter-spacing: 3px;
+  font-style: italic;
+  color: black;
+  font-weight: 700;
+  opacity: 0.8;
+}
+
+.bottom_gradient {
+  height: 50px;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(18, 49, 51, 1) 100%
+  );
+}
+
+.footer_container {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.footer_content {
+  background-color: #123133;
+  color: rgb(184, 127, 108);
+  font-size: 14px;
+  text-align: center;
+  padding: 10px;
+
+  line-height: 1.2;
+}
+
+.contact_header {
+  letter-spacing: 5px;
+}
